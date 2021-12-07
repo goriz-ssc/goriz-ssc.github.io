@@ -12,25 +12,25 @@ feature_row:
   - image_path: images/mm-customizable-feature.png
     alt: "Event 1"
     title: "Event 1"
-    excerpt: "time"
+    excerpt: "desc"
     url: "/docs/configuration/"
     btn_label: "Learn More"
   - image_path: images/mm-responsive-feature.png
     alt: "Event 2"
     title: "Event 2"
-    excerpt: "time"
+    excerpt: "desc"
     url: "/docs/layouts/"
     btn_label: "Learn More"
   - image_path: images/mm-free-feature.png
     alt: "Event 3"
     title: "Event 3"
-    excerpt: "time"
+    excerpt: "desc"
     url: "/docs/license/"
     btn_label: "Learn More"
   - image_path: images/mm-free-feature.png
     alt: "Event 4"
     title: "Event 4"
-    excerpt: "time"
+    excerpt: "desc"
     url: "/docs/license/"
     btn_label: "Learn More"
 github:
@@ -44,3 +44,24 @@ intro:
 {% include feature_row id="intro" type="center" %}
 
 {% include feature_row %}
+
+<div class="timeline">
+  <div class="container left">
+    <div class="content">
+      <h2>2017-09-22</h2>
+      <h3>Event 1</h3>
+    </div>
+  </div>
+  <div class="container right">
+    <div class="content">
+      <h2>2017-10-22</h2>
+      <h3>Event 2</h3>
+    </div>
+  </div>
+  <div class="container left">
+    <div class="content">
+      <h2>2017-11-22</h2>
+      <h3>Event 3</h3>
+    </div>
+  </div>
+</div>
